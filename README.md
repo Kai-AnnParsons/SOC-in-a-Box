@@ -1,4 +1,4 @@
-# 🛡️ SOC-in-a-Box (Student Project)
+# 🛡️ SOC-in-a-Box 
 
 Welcome to our **SOC-in-a-Box** project! 🎉  
 This repo documents our journey as cybersecurity students building a **mini Security Operations Center (SOC)** at home.  
