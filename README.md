@@ -15,12 +15,12 @@ We’re 6 teammates simulating attacks, detecting them, and responding like a re
 ---
 
 ## 🧑‍🤝‍🧑 Team Roles
-- **R1 Infrastructure (Castle Gatekeeper):** pfSense firewall, VM network  
-- **R2 SOC Platform (Camera Control Room):** Security Onion setup, dashboards  
-- **R3 Endpoints (Room Microphones):** Windows/Ubuntu VMs, Sysmon, agents  
-- **R4 Threat Intel (Oracle):** Sigma rules, intel feeds, tuning detections  
-- **R5 Red Team (Dragon):** Kali attacks (nmap, brute force, phishing, malware sim)  
-- **R6 Case Mgmt (Scribe):** Playbooks, case logs, KPIs, report  
+- **R1 Infrastructure :** pfSense firewall, VM network  
+- **R2 SOC Platform :** Security Onion setup, dashboards  
+- **R3 Endpoints ** Windows/Ubuntu VMs, Sysmon, agents  
+- **R4 Threat Intel :** Sigma rules, intel feeds, tuning detections  
+- **R5 Red Team :** Kali attacks (nmap, brute force, phishing, malware sim)  
+- **R6 Case Mgmt :** Playbooks, case logs, KPIs, report  
 
 ---
 
