@@ -1,1 +1,12 @@
 
+Each team member has a personal account. Sharing passwords/keys is forbidden.
+
+No internet attacks: attacking external networks is prohibited. All tests must be confined to the lab network on the VM.
+
+For any destructive tests (malware, exploits, full resets), file a Red Team Window request at least 24 hours in advance.
+
+Before a Red Team Window: snapshots taken, backups confirmed, WAN access blocked for attacker.
+
+After each session: push artifacts and notes to GitHub and add a short reflection (see template).
+
+Violations may result in temporary suspension of access.
