@@ -1,0 +1,26 @@
+# VM images
+*.vmdk
+*.vmx
+*.vmsd
+*.nvram
+*.ova
+*.ovf
+*.vdi
+
+# Install media
+*.iso
+*.img
+*.gz
+*.zip
+
+# Logs / captures
+*.pcap
+*.pcapng
+*.evtx
+*.log
+
+# Secrets
+*.key
+*.pem
+*.pfx
+.env
