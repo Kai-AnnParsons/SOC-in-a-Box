@@ -36,32 +36,22 @@ We’re 6 teammates simulating attacks, detecting them, and responding like a re
 ---
 
 ## 📂 Repo Structure
-/docs → guides, notes, configs
-/playbooks → incident response playbooks
-/rules → Sigma rules, Sysmon configs
-/evidence → screenshots, alerts, logs
-/redteam → attack scripts + results
-/infra → network diagrams, firewall rules
-
-
----
-
-## 🚀 How to Use
-1. Clone this repo or download it as a zip.  
-2. Follow setup instructions in `/docs/`.  
-3. Review playbooks in `/playbooks/` to handle incidents.  
-4. See `/evidence/` for screenshots of alerts and detections.  
-5. Check GitHub Issues tab for case logs.  
+- /docs → guides, notes, configs
+- /playbooks → incident response playbooks
+- /rules → Sigma rules, Sysmon configs
+- /evidence → screenshots, alerts, logs
+- /redteam → attack scripts + results
+- /infra → network diagrams, firewall rules
 
 ---
 
-## 📅 Timeline (Quick Build)
-- **Day 1–2:** pfSense + Security Onion setup  
-- **Day 3–4:** Endpoints, Sysmon, agent deployment  
-- **Day 5:** Threat Intel feeds + rules  
-- **Day 6:** Red Team test (nmap, EICAR, brute force)  
-- **Day 7:** Blind drill + case tracking  
-- **Day 8:** Final polish, report, demo  
+## 📅 Timeline 
+- **Week 1** pfSense + Security Onion setup  
+- **Week 2** Endpoints, Sysmon, agent deployment  
+- **Week 3** Threat Intel feeds + rules  
+- **Week 4** Red Team test (nmap, EICAR, brute force)  
+- **Week 5** Blind drill + case tracking  
+- **Week 6** Final polish, report, demo  
 
 ---
 
@@ -77,7 +67,7 @@ We’re 6 teammates simulating attacks, detecting them, and responding like a re
 ## ⚠️ Safety Note
 - Lab is **isolated** (NAT network, no external attacks).  
 - Red team runs only against **our own VMs**.  
-- Always snapshot before simulating attacks.  
+- Always snapshot before simulating attacks. 
 
 ---
 
