@@ -1,13 +1,20 @@
 # 🛡️ SOC-in-a-Box 
 
 Welcome to our **SOC-in-a-Box** project! 🎉  
-This repo documents our journey as cybersecurity students building a **mini Security Operations Center (SOC)** at home.  
-We’re 6 teammates simulating attacks, detecting them, and responding like a real SOC team.  
+This repo documents our journey as cybersecurity students building a **mini Security Operations Center (SOC)** at home to learn basic cybersecurity concepts. 
+We’re 6 teammates simulating attacks, detecting them, and responding like a real SOC team. 
+
+### This project is a **Work In Progress**: 
+✅ Completed: Installed base VMs (pfSense, Linux Gateway, Windows endpoint, Security Onion), Configured Tailscale VPN, Conifgured Firewall and DHCP.
+
+🟡 In progress: Security Onion configuration + manager/dashboard access. Windows endpoint Sysmon, agents. 
+
+🔜 Next: add log sources (Windows endpoint), start alert triage workflow. 
 
 ---
 
 ## 🎯 Project Goals
-- Build a small virtual SOC using **free/open-source tools**  
+- Build a small virtual SOC using **free/open-source tools** 
 - Learn how logs, IDS, and SIEMs connect together  
 - Practice incident detection + response playbooks  
 - Present a working demo + report at the end  
@@ -15,7 +22,7 @@ We’re 6 teammates simulating attacks, detecting them, and responding like a re
 ---
 
 ## 🧑‍🤝‍🧑 Team Roles
-- **R1 Infrastructure :** pfSense firewall, VM network  
+- **R1 Infrastructure :** pfSense firewall, Linux Gateway VM, Tailscale VPN Tunnel
 - **R2 SOC Platform :** Security Onion setup, dashboards  
 - **R3 Endpoints :** Windows/Ubuntu VMs, Sysmon, agents  
 - **R4 Threat Intel :** Sigma rules, intel feeds, tuning detections  
@@ -26,9 +33,10 @@ We’re 6 teammates simulating attacks, detecting them, and responding like a re
 
 ## 🧰 Tools Used
 - **pfSense** → Firewall & DHCP  
+- **Tailscale** → VPN Tunnel 
 - **Security Onion** → SIEM, IDS (Suricata, Zeek), Fleet for agents  
 - **Windows 10 Eval + Sysmon** → Endpoint telemetry  
-- **Ubuntu** → Linux endpoint  
+- **Ubuntu** → Linux Gateway VM 
 - **Kali Linux** → Attacker box (nmap, Hydra, GoPhish, EICAR)  
 - **GitHub Issues** → Case tracking  
 - **Google Docs/Slides** → Report + presentation  
