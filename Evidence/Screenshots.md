@@ -17,3 +17,11 @@ Our pfSense firewall VM setup and configured with a NAT and LAN (VMnet2) interfa
 description
 
 🔗 [View-screenshot] (picture_name)
+
+--- 
+
+## num. name of screenshot
+**what this shows**
+description
+
+🔗 [View-screenshot] (picture_name)
