@@ -21,10 +21,11 @@ We’re 6 teammates simulating attacks, detecting them, and responding like a re
 
 ---
 
-## 🎯 Project Goals
-- Build a small virtual SOC using **free/open-source tools** 
-- Learn how logs, IDS, and SIEMs connect together  
-- Practice incident detection + response playbooks  
+## 🎯 Project Objectives
+- Build a small virtual SOC using **free/open-source tools**
+- Learn how logs, IDS, and SIEMs connect   
+- Practice incident detection + response playbooks
+- Develop foundational incident detection and response skills
 - Present a working demo + report at the end  
 
 ---
@@ -45,7 +46,7 @@ throughout the project to ensure shared learning and hands-on experience.
 
 ---
 
-## 🧰 Tools Used
+## 🧰 Tools and Technologies
 - **pfSense** → Firewall & DHCP  
 - **Tailscale** → VPN Tunnel 
 - **Security Onion** → SIEM, IDS (Suricata, Zeek), Fleet for agents  
@@ -57,6 +58,18 @@ throughout the project to ensure shared learning and hands-on experience.
 
 ---
 
+## Skills Demonstrated
+- SOC monitoring and alert triage
+- add more skills here
+
+---
+
+## Future Enhancements
+- Simulate Malware traffic
+- Integrate threat intelligence 
+
+---
+
 ## 📂 Repo Structure
 - /infra → network diagrams, firewall rules, Overview of setup
 - /docs → guides, notes, configs
@@ -64,7 +77,6 @@ throughout the project to ensure shared learning and hands-on experience.
 - /rules → Sigma rules, Sysmon configs
 - /evidence → screenshots, alerts, logs
 - /redteam → attack scripts + results
-
 
 ---
 
