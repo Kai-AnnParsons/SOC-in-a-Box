@@ -4,15 +4,15 @@ Each link opens a screenshot stored in this folder.
 
 ---
 
-## 1. pfSense Network Configuration
+## Security Onion Dashboard
 **What this shows**
-Our pfSense firewall VM setup and configured with a NAT and LAN (VMnet2) interface. To connect our SOC internal network, acting as the central gateway for all traffic going in and out of our SOC enviornment. 
+description 
 
-🔗 [view-screenshot](pfsense_network_configuration.png)
+🔗 [view-screenshot](picture_name)
 
 --- 
 
-## num. name of screenshot
+## name of screenshot
 **what this shows**
 description
 
@@ -20,7 +20,7 @@ description
 
 --- 
 
-## num. name of screenshot
+## name of screenshot
 **what this shows**
 description
 
