@@ -29,13 +29,19 @@ We’re 6 teammates simulating attacks, detecting them, and responding like a re
 
 ---
 
-## 🧑‍🤝‍🧑 Team Roles
-- **R1 Infrastructure :** pfSense firewall, Linux Gateway VM, Tailscale VPN Tunnel
-- **R2 SOC Platform :** Security Onion setup, dashboards  
-- **R3 Endpoints :** Windows/Ubuntu VMs, Sysmon, agents  
-- **R4 Threat Intel :** Sigma rules, intel feeds, tuning detections  
-- **R5 Red Team :** Kali attacks (nmap, brute force, phishing, malware sim)  
-- **R6 Case Mgmt :** Playbooks, case logs, KPIs, report  
+## 🧑‍🤝‍🧑 Team Roles (Rotational Focus Areas)
+Each team member contributes to all parts of the SOC lab.  
+Roles are used as *focus areas* for organization and accountability and will rotate
+throughout the project to ensure shared learning and hands-on experience.
+- **Infrastructure & Networking**  pfSense firewall, Linux gateway VM, internal routing, Tailscale VPN access
+- **SOC Platform & Detection**  Security Onion deployment, dashboards, log ingestion, alert triage
+- **Endpoints & Telemetry**  Windows and Linux endpoints, Sysmon configuration, agent setup
+- **Threat Intelligence & Detection Engineering**  Sigma rules, threat feeds, detection tuning and validation
+
+- **Adversary Simulation (Red Team)**  Kali-based attack simulations (nmap, brute force, phishing, malware emulation)
+
+- **Incident Response & Case Management**  Playbooks, case documentation, KPIs, reporting and post-incident review
+
 
 ---
 
