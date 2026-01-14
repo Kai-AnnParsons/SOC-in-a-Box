@@ -8,7 +8,7 @@ Each link opens a screenshot stored in this folder.
 **What this shows**
 Our pfSense firewall VM setup and configured with a NAT and LAN (VMnet2) interface. To connect our SOC internal network, acting as the central gateway for all traffic going in and out of our SOC enviornment. 
 
-🔗 [view-screenshot] (pfsense_network_configuration.png)
+🔗 [view-screenshot](pfsense_network_configuration.png)
 
 --- 
 
@@ -16,7 +16,7 @@ Our pfSense firewall VM setup and configured with a NAT and LAN (VMnet2) interfa
 **what this shows**
 description
 
-🔗 [View-screenshot] (picture_name)
+🔗 [View-screenshot](picture_name)
 
 --- 
 
@@ -24,4 +24,4 @@ description
 **what this shows**
 description
 
-🔗 [View-screenshot] (picture_name)
+🔗 [View-screenshot](picture_name)
