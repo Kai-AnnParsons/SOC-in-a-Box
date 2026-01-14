@@ -1,15 +1,23 @@
 # 🛡️ SOC-in-a-Box 
 
 Welcome to our **SOC-in-a-Box** project! 🎉  
-This repo documents our journey as cybersecurity students building a **mini Security Operations Center (SOC)** at home to learn basic cybersecurity concepts. 
-We’re 6 teammates simulating attacks, detecting them, and responding like a real SOC team. 
+This repository documents the design, deployment, and operation of a home Security Operations Center (SOC) lab. This project allows us to implement our knowledge as cybersecurity students and emphasizes hands-on learning, real-world troubleshooting, and security best practices aligned with industry frameworks such as NIST CSF.
 
 ### This project is a **Work In Progress**: 
-✅ Completed: Installed base VMs (pfSense, Linux Gateway, Windows endpoint, Security Onion), Configured Tailscale VPN, Conifgured Firewall and DHCP.
+✅ Completed: Installed base VMs (pfSense, Linux Gateway, Windows endpoint, Security Onion), Configured Tailscale VPN, Configured Firewall and DHCP.
 
 🟡 In progress: Security Onion configuration + manager/dashboard access. Windows endpoint Sysmon, agents. 
 
 🔜 Next: add log sources (Windows endpoint), start alert triage workflow. 
+
+### Team Members
+We’re 6 teammates simulating attacks, detecting them, and responding like a real SOC team. 
+- Kai-Ann Parsons
+- Faith Aikhionbare
+- Mahimaa Vardini Br
+- Samarpita Sharma
+- Riaa Sehgal
+- Nada Elshami
 
 ---
 
@@ -44,22 +52,23 @@ We’re 6 teammates simulating attacks, detecting them, and responding like a re
 ---
 
 ## 📂 Repo Structure
+- /infra → network diagrams, firewall rules, Overview of setup
 - /docs → guides, notes, configs
 - /playbooks → incident response playbooks
 - /rules → Sigma rules, Sysmon configs
 - /evidence → screenshots, alerts, logs
 - /redteam → attack scripts + results
-- /infra → network diagrams, firewall rules
+
 
 ---
 
 ## 📅 Timeline 
-- **Week 1** pfSense + Security Onion setup  
-- **Week 2** Endpoints, Sysmon, agent deployment  
-- **Week 3** Threat Intel feeds + rules  
-- **Week 4** Red Team test (nmap, EICAR, brute force)  
-- **Week 5** Blind drill + case tracking  
-- **Week 6** Final polish, report, demo  
+- **Stage 1** pfSense + Security Onion setup  
+- **Stage 2** Endpoints, Sysmon, agent deployment  
+- **Stage 3** Threat Intel feeds + rules  
+- **Stage 4** Red Team test (nmap, EICAR, brute force)  
+- **Stage 5** Blind drill + case tracking  
+- **Stage 6** Final polish, report, demo  
 
 ---
 
@@ -69,13 +78,6 @@ We’re 6 teammates simulating attacks, detecting them, and responding like a re
 - ✅ 2 dashboards (Analyst + Exec with MTTD/MTTR)  
 - ✅ Final report (8–12 pages)  
 - ✅ 8–10 min demo video  
-
----
-
-## ⚠️ Safety Note
-- Lab is **isolated** (NAT network, no external attacks).  
-- Red team runs only against **our own VMs**.  
-- Always snapshot before simulating attacks. 
 
 ---
 
